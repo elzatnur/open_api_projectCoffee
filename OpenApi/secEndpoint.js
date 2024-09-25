@@ -27,5 +27,9 @@ const apiUrl = 'https://api.sampleapis.com/coffee/iced';
                 console.error('Error fetching coffee image:', error);
             }
         }
+        function goToMain() {
+            window.location.href = 'api.html'; 
+        }
+        
 
         document.addEventListener('DOMContentLoaded', fetchRandomCoffeeImage);
